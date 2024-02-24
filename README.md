@@ -19,5 +19,5 @@ I'm probably going to add a function to check the user input, and if the inputs 
 
 <hr>
 <p align="center"> this is just the first version <br> more improvements comming soon <br>
-coded by: Silentrovert007c
+coded by: Silentrovert007
  

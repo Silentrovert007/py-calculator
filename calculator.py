@@ -2,6 +2,9 @@
 # Avoided Code repetition
 # fixed some problems some functions
 
+# TODO-1 - fix input checking for the functions square-root, division (fix division by zero), cotangent (single input)
+
+
 
 import math
 
@@ -49,7 +52,8 @@ def tang(a):
 
 
 def cotan(a):
-    cot = math.cos(a) / math.sin(a)
+    a_rad = math.radians(a)
+    cot = math.cos(a_rad) / math.sin(a_rad)
     print(f"cotan is {cot}.")
     return cot
 

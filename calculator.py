@@ -34,26 +34,29 @@ def division(a, b):
 
 
 def sen(a):
-    s = math.sin(a)
+    a_rad = math.radians(a)
+    s = round(math.sin(a_rad), 2)
     print(f"sin is {s}.")
     return s
 
 
 def cos(a):
-    co = math.cos(a)
+    a_rad = math.radians(a)
+    co = round(math.cos(a_rad), 2)
     print(f"cos is {co}.")
     return co
 
 
 def tang(a):
-    tan = math.tan(a)
+    a_rad = math.radians(a)
+    tan =round(math.tan(a_rad), 2)
     print(f"tan is {tan}.")
     return tan
 
 
 def cotan(a):
     a_rad = math.radians(a)
-    cot = math.cos(a_rad) / math.sin(a_rad)
+    cot = round(math.cos(a_rad) / math.sin(a_rad), 2) 
     print(f"cotan is {cot}.")
     return cot
 
